@@ -57,5 +57,55 @@
     slider.style.transform = `translateX(-${index * 100}%)`;
   }, 10000); // 15 segundos
 </script>
+
+<div class="faq-container">
+  <h1>Dúvidas Frequentes</h1>
+
+  <div class="faq-item">
+    <div class="faq-question">O que é Wi-fi?</div>
+    <div class="faq-answer">
+     
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Como fazer uma senha segura de aplicativo?</div>
+    <div class="faq-answer">
+     
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Como faz para acessar a tela de Ranking do site?</div>
+    <div class="faq-answer">
+     
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Como faz para acessar o banco?</div>
+    <div class="faq-answer">
+      
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">O que é um aplicativo?</div>
+    <div class="faq-answer">
+      
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    item.querySelector('.faq-question').addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+</script>
 </body>
 </html>

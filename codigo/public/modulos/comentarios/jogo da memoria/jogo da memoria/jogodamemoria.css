@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial Rounded MT Bold', 'Roboto', sans-serif;
+  background-color: #d9f0fb; /* azul bem clarinho */
+  color: #034f84; /* azul escuro suave */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container central para tudo */
+.container {
+  max-width: 960px;
+  margin: auto;
+  background-color: #f0f8ff; /* branco azuladinho */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(3, 79, 132, 0.15);
+}
+
+/* Títulos */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #0277bd; /* azul médio */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  margin: 20px 0 10px;
+  color: #01579b; /* azul mais escuro */
+}
+
+/* Texto normal */
+p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #045d8c;
+}
+
+/* Input e botão */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #a9d6f5;
+  border-radius: 12px;
+  margin: 10px 5px;
+  width: 220px;
+  background-color: #e6f2fb;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #0288d1;
+  background-color: #d0e7fb;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(2, 136, 209, 0.4);
+}
+
+button:hover {
+  background-color: #0277bd;
+  box-shadow: 0 6px 12px rgba(2, 119, 189, 0.6);
+}
+
+/* Pontuação e tempo */
+#score,
+#timer,
+#ranking {
+  font-size: 20px;
+  color: #014f86;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+/* Tabuleiro do jogo */
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  justify-items: center;
+  margin-top: 25px;
+}
+
+/* Cartas */
+.card {
+  background-color: #cce7f9;
+  border: none;
+  height: 110px;
+  width: 110px;
+  font-size: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(3, 79, 132, 0.15);
+  color: #034f84;
+  font-weight: 600;
+}
+
+.card:hover {
+  background-color: #a8d0fb;
+  transform: scale(1.07);
+  box-shadow: 0 8px 16px rgba(2, 119, 189, 0.3);
+}
+
+.card.flipped,
+.card.matched {
+  background-color: #f0f8ff;
+  color: #014f86;
+  box-shadow: inset 0 0 14px rgba(2, 119, 189, 0.4);
+  cursor: default;
+  font-weight: 700;
+}

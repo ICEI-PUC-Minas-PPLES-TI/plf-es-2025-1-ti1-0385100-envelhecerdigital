@@ -1,9 +1,9 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Envelhecer Digital
 authors:
-  - family-names: 
-    given-names: 
+  - family-names: Fábio
+    given-names: Garcia Martins
   - family-names: 
     given-names: 
   - family-names: 
@@ -23,8 +23,8 @@ authors:
     family-names: 
     given-names: 
 keywords:
-  - 
-  - 
+  - Analfabetismo Digital
+  - Acessebilidade na internet
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0

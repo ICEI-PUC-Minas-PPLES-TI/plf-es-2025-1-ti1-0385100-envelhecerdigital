@@ -12,8 +12,8 @@ h1 {
   text-align: left;
   font-size: 1.5em;
   margin-right: 20px;
-  font-size: 50px;
-  padding-left: 6.25rem;
+  font-size: 55px;
+  padding-left: 5rem;
   
 
 }
@@ -38,7 +38,7 @@ a:hover {
 
 .carousel {
   width: 100vw;
-  height: 100vh;
+  height: 103.8vh;
   margin-top: -50px;
   overflow: hidden;
   position: relative;
@@ -254,30 +254,9 @@ a:hover {
 
  
 /* Responsividade */
-
 @media screen and (max-width: 999px) {
-
   header {
     display: none;
-  }
-
-  .list .item .content {
-    left: 50px;
-  }
-
-  .content .title,
-  .content .name {
-    font-size: 70px;
-  }
-
-  .content .des {
-    font-size: 16px;
-  }
-
-}
-
-@media screen and (max-width: 999px) {
-  header {
     padding-left: 20px;
   }
 
@@ -306,6 +285,7 @@ a:hover {
     height: 200px;
   }
 }
+
 
 @media screen and (max-width: 690px) {
   .menu ul {
@@ -359,16 +339,6 @@ a:hover {
 
 
 
- .menu-toggle {
-  display: none;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  position: absolute;
-  top: 15px;
-  left: 20px;
-  z-index: 1001;
-}
   /* fimresponsividadecarrosel*/ 
   
   
@@ -379,10 +349,11 @@ a:hover {
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 7px 0;
+  padding: 1px 0;
   text-align: center;
   z-index: 1000;
   box-shadow: 0 4px 20px          rgb(77, 118, 145);
+
 }
 
 .menu ul {
@@ -406,3 +377,6 @@ a:hover {
   font-size: 30px;
   padding: 10px;
 }   /* menua acima do carrosel*/ 
+
+
+

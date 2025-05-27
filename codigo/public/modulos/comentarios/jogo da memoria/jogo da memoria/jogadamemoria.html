@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="jogodamemoria.css">
+</head>
+<body>
+    <div class="container">
+
+  <div class="container">
+    <h1>Jogo da Memória</h1>
+    <p id="timer">Tempo restante: 04:00</p>
+      <div>
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome" />
+    <button onclick="salvarPontuacao()">Salvar Pontuação</button>
+  </div>
+
+  <p id="score">Pontos: 0</p>
+  <p id="timer">Tempo restante: 04:00</p>
+  <div id="game-board"></div>
+
+  <h2>Ranking</h2>
+  <div id="ranking">Carregando...</div>
+    <div id="game-board" class="game-board"></div>
+    <p id="score">Pontos: 0</p>
+ <p id="melhor-pontuacao">Melhor pontuação: 0</p>
+  </div>
+
+<audio id="success-sound" src="sounds/acerto.mp3"></audio>
+  <audio id="error-sound" src="sounds/erro.mp3"></audio>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -12,21 +12,21 @@ authors:
     given-names: Anthony
   - family-names: Vieira da Costa Leal
     given-names: Caio
--  family-names: De Moura Campos Torga
+  - family-names: De Moura Campos Torga
     given-names: João Pedro
-
-  - name: Cleiton Silva Tavares
+  - family-names: Tavares
+    given-names: Cleiton Silva
+    name-suffix: Professor
     affiliation: PUC Minas
-  - name:  Rommel Vieira Carneiro
+  - family-names: Carneiro
+    given-names: Rommel Vieira
+    name-suffix: Professor
     affiliation: PUC Minas
 keywords:
   - Analfabetismo Digital
   - Acessibilidade na Internet
   - Inclusão Digital
   - Envelhecimento
-  
-  
-
 repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2025-1-ti1-0385100-envelhecerdigital.git
 license: CC-BY-4.0
 version: 1.0.0
